@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/captcha.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="neon-text">Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="schedule.html">Streaming Schedule</a></li>
+                <li><a href="clips.html">Clips</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="business.html">Business Inquiries</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-form">
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <label for="captcha">Enter: <span id="captchaText"></span></label>
+            <input type="text" id="captchaInput" required>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ShadowUnleashed Gaming</p>
+    </footer>
+</body>
+</html>
